@@ -4,5 +4,14 @@
 Use the create.sh script to create the infrasctures for the first time
 use the update.sh script to update existing stack 
 
+File Descriptions:
+
+udagram-network.yml- file contains the network resources and output 
+parameters-network.json file contains network variables such as IP address for each subnets 
+servers-ugdaram.yml file contains security groups, loadbalancing, target groups and listener
+servers-udagram.json file contains environmental name 
+createstack.sh - is used to deploy the infrastructure
+updatestack.sh is used to update the infrastrucures 
+
 
 
